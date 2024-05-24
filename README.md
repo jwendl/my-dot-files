@@ -3,6 +3,7 @@
 WinGet (Run from Any Prompt)
 
 ``` PowerShell
+winget install "Git.Git" --silent
 winget install "Chocolatey.Chocolatey" --silent
 winget install "Microsoft.VisualStudio.2022.Enterprise" --silent
 winget install "Microsoft.VisualStudioCode" --silent
