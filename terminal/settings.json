@@ -16,10 +16,6 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,12 +23,17 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "initialRows": 35,
+    "initialCols": 140,
+    "initialRows": 40,
     "newTabMenu": 
     [
         {
@@ -43,9 +44,9 @@
     {
         "defaults": 
         {
-            "colorScheme": "Nord",
             "font": 
             {
+                "face": "Cascadia Code",
                 "size": 16.0
             }
         },
@@ -64,39 +65,10 @@
                 "name": "Command Prompt"
             },
             {
-                "guid": "{17bf3de4-5353-5709-bcf9-835bd952a95e}",
-                "hidden": true,
-                "name": "Ubuntu-22.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{404483b3-c895-5ff3-a53d-c35cd421878c}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{77da37f3-21b8-5d21-af22-501efbd065bb}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "colorScheme": "Nord",
-                "font": 
-                {
-                    "face": "MesloLGS NF"
-                },
-                "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
-                "hidden": false,
-                "name": "Ubuntu 22.04.2 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             },
             {
                 "colorScheme": "Nord",
@@ -110,25 +82,22 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
-            },
-            {
-                "commandline": "ssh jwendl@game.jwendl.net",
+                "colorScheme": "Nord",
+                "commandline": "ssh jwendl@game.jwendl.dev",
                 "guid": "{64d03aeb-7d0c-53fb-bb86-1b379c98d45a}",
                 "icon": "\ud83c\udfae",
-                "name": "game.jwendl.net"
+                "name": "game.jwendl.dev"
             },
             {
-                "commandline": "ssh -p 2223 jwendl@frigg",
+                "colorScheme": "Nord",
+                "commandline": "ssh jwendl@frigg",
                 "guid": "{710ff715-3a02-5da0-b4a1-e212f1a0b83e}",
                 "icon": "\ud83e\ude9f",
                 "name": "frigg - windows"
             },
             {
-                "commandline": "ssh -p 2222 jwendl@frigg-vm",
+                "colorScheme": "Nord",
+                "commandline": "ssh jwendl@frigg-vm",
                 "font": 
                 {
                     "face": "MesloLGS NF"
@@ -136,6 +105,35 @@
                 "guid": "{8d98ffb2-1cb5-53a9-a8ff-7e915dea4148}",
                 "icon": "\ud83d\udc27",
                 "name": "frigg - linux "
+            },
+            {
+                "colorScheme": "Nord",
+                "commandline": "ssh blog@jwendl.net",
+                "font": 
+                {
+                    "face": "MesloLGS NF"
+                },
+                "guid": "{eae62baa-da84-43f6-8d93-9c5dddcdfa4c}",
+                "icon": "\ud83d\udc27",
+                "name": "blog - linux "
+            },
+            {
+                "guid": "{94839c05-101c-56f4-92a2-7b8927a1b98c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{86ff1943-cbac-579d-b27c-185ed8040973}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
             }
         ]
     },
@@ -349,29 +347,6 @@
             "yellow": "#C4A000"
         },
         {
-            "background": "#300A24",
-            "black": "#171421",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#08458F",
-            "brightCyan": "#2C9FB3",
-            "brightGreen": "#26A269",
-            "brightPurple": "#A347BA",
-            "brightRed": "#C01C28",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#A2734C",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#FFFFFF",
-            "green": "#26A269",
-            "name": "Ubuntu-22.04-ColorScheme",
-            "purple": "#881798",
-            "red": "#C21A23",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#A2734C"
-        },
-        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -395,49 +370,5 @@
             "yellow": "#808000"
         }
     ],
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ]
+    "themes": []
 }
