@@ -6,6 +6,7 @@ WinGet (Run from Any Prompt)
 winget install "Git.Git" --silent
 winget install "Chocolatey.Chocolatey" --silent
 winget install "Microsoft.AzureCLI" --silent
+winget install "Microsoft.Azure.StorageExplorer" --silent
 winget install "Microsoft.VisualStudio.2022.Enterprise" --silent
 winget install "Microsoft.VisualStudioCode" --silent
 winget install "Microsoft.DotNet.SDK.8 8.0.105" --silent
