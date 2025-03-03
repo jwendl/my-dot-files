@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Nord",
+    "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terraform.languageServer": {
+        "external": true,
+        "pathToBinary": "",
+        "args": [
+            "serve"
+        ],
+        "ignoreSingleFileWarning": false
+    },
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+    "workbench.iconTheme": "icons",
+    "workbench.startupEditor": "none",
+    "remote.SSH.remotePlatform": {
+        "localhost": "linux"
+    }
+}
